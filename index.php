@@ -1,3 +1,8 @@
+<?php
+session_start ();
+
+?>
+
 <?php include "Header\header.html"?>
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -58,7 +63,7 @@
 
 						<!-- Contact -->
 							<article id="contact">
-								<?php include "Pages\Contact.html"?>
+								<?php include "Pages\contact.php"?>
 							</article>
 
 					</div>

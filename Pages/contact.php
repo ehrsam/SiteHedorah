@@ -1,5 +1,5 @@
 <h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form method="POST" action="./Formulaire/formulaire.php" enctype="multipart/form-data" name="form">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
