@@ -29,7 +29,8 @@ session_start ();
 								<li><a href="#live">Live</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
-								<li><a href="#register">S'inscrire</a></li>
+								<!--<li><a href="#login">Connexion</a></li>-->
+								<!--<li><a href="#register">S'inscrire</a></li>-->
 							</ul>
 						</nav>
 					</header>
@@ -70,6 +71,11 @@ session_start ();
 						<!-- Register -->
 							<article id="register">
 								<?php include "Pages\Register.php"?>
+							</article>
+
+						<!-- Login -->
+							<article id="login">
+								<?php include "Pages\login.html"?>
 							</article>
 
 					</div>
