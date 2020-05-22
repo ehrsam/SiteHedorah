@@ -37,6 +37,16 @@ ol, ul {
 	list-style: none;
 }
 
+/* Message succès */
+.success{
+	width: auto;
+	height: 50px;
+	background-color: rgb(77, 150, 3);
+	border-radius: 2px;
+	text-align: center;
+	line-height: normal;
+}
+
 blockquote, q {
 	quotes: none;
 }

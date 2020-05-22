@@ -1,4 +1,12 @@
 <h2 class="major">Contact</h2>
+
+<div>
+<?php if(array_key_exists('success', $_SESSION)): ?>
+<div class="success"> 
+	message envoyé
+<?php endif; ?>
+</div>
+<div>
 								<form method="POST" action="./Formulaire/formulaire.php" enctype="multipart/form-data" name="form">
 									<div class="fields">
 										<div class="field half">
@@ -23,3 +31,6 @@
 									<li><a href="https://www.facebook.com/deathmetalblackswan" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="https://www.instagram.com/black_swan_officiel/?hl=fr" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									</ul>
+
+</div>
+<?php unset($_SESSION['success']) ?>
