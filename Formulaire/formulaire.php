@@ -21,12 +21,12 @@ try {
 } catch (PDOException $e) {
     echo 'Connexion échouée : ' . $e->getMessage();
 }
-// ini_set('SMTP','smtp.orange.fr');
-// ini_set("sendmail_from",$_POST['email']);
-//     $retour = mail('ehrsammathieu1@gmail.com', $_POST['message'], 'From : '.$_POST['email']);
-//     if ($retour) {
-//         echo '<p>Votre message a bien été envoyé.</p>';
-//     }
+ini_set('SMTP','smtp.orange.fr');
+ini_set("sendmail_from",$_POST['email']);
+    $retour = mail('ehrsammathieu1@gmail.com', $_POST['message'], 'From : '.$_POST['email']);
+    if ($retour) {
+        echo '<p>Votre message a bien été envoyé.</p>';
+    }
 
 ?>
 
