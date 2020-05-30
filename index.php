@@ -29,8 +29,6 @@ session_start ();
 								<li><a href="#live">Live</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#login">Connexion</a></li>-->
-								<!--<li><a href="#register">S'inscrire</a></li>-->
 							</ul>
 						</nav>
 					</header>
@@ -67,17 +65,6 @@ session_start ();
 							<article id="contact">
 								<?php include "Pages\contact.php"?>
 							</article>
-
-						<!-- Register -->
-							<article id="register">
-								<?php include "Pages\Register.php"?>
-							</article>
-
-						<!-- Login -->
-							<article id="login">
-								<?php include "Pages\login.html"?>
-							</article>
-
 					</div>
 
 				<!-- Footer -->
@@ -96,3 +83,4 @@ session_start ();
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/form.js"></script>
