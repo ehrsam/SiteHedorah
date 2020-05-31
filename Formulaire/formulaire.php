@@ -18,7 +18,7 @@ try {
 }
 ini_set('SMTP','smtp.orange.fr');
 ini_set("sendmail_from",$_POST['email']);
-    $retour = mail('ehrsammathieu1@gmail.com', $_POST['message'], 'From : '.$_POST['email']);
+    $retour = mail('hedorah-official@hotmail.com', $_POST['message'], 'From : '.$_POST['email']);
     if ($retour) {
         echo '<p>Votre message a bien été envoyé.</p>';
     }

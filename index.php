@@ -3,7 +3,18 @@ session_start ();
 
 ?>
 
-<?php include "Header\header.html"?>
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>HEDORAH</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main4.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
 				<!-- Header -->
@@ -23,12 +34,12 @@ session_start ();
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#shop">Shop</a></li>
-								<li><a href="#live">Live</a></li>
+								<li><a href="#intro">Band</a></li>
+								<li><a href="#work">News</a></li>
+								<li><a href="#live">Gallery</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
+								<li><a href="https://blackswanoff.bandcamp.com/">Store</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -65,6 +76,11 @@ session_start ();
 							<article id="contact">
 								<?php include "Pages\contact.php"?>
 							</article>
+
+						<!-- Contact -->
+							<article id="store">
+								<?php include "Pages\Store.php"?>
+							</article>
 					</div>
 
 				<!-- Footer -->
@@ -83,4 +99,7 @@ session_start ();
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/form.js"></script>
+
+</body>
+</html>
+

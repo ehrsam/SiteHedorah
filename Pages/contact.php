@@ -1,21 +1,21 @@
 <h2 class="major">Contact</h2>
-								<form method="POST" action="./Formulaire/formulaire.php" enctype="multipart/form-data" name="form">
+								<form method="POST" action="./Formulaire/formulaire.php" enctype="multipart/form-data" name="form" >
 									<div class="fields">
 										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<label for="name">Last name</label>
+											<input type="text" name="name" id="name" placeholder="Enter your last name" required/>
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="email" name="email" id="email" value="@" required/>
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
+											<textarea name="message" id="message" rows="4" required placeholder="Write your message here"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="submit" value="Send message"/></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
